@@ -7,7 +7,31 @@
     <title>Doom Fire</title>
 </head>
 <body>
-    <div id="fireCanvas"></div>
+    <div class="fireArea">        
+        <div id="fireCanvas"></div>
+    </div>
+    <div class="directionBtns">
+        <button onclick="toLeft()" class="btn"><</button>
+        <button onclick="toCenter()" class="btn">|</button>
+        <button onclick="toRight()" class="btn">></button>
+    </div>
+    <div class="quantityBtns">
+        <button class="btn" onclick="decreaseFireSource()">-</button>
+        <button class="btn" onclick="destroyFireSource()">Min Fire</button>
+        <button class="btn" onclick="createFireSource()">max Fire</button>
+        <button class="btn" onclick="increaseFireSource()">+</button>
+    </div>
+    <div class="colors">
+        <button class="btn color1" onclick="changeColorToOrange()">Original Flames</button>
+        <button class="btn color2" onclick="changeColorToRed()">Red Flames</button>
+        <button class="btn color3" onclick="changeColorToBlue()">Blue Flames</button>
+        <button class="btn color4" onclick="changeColorToGreen()">Green Flames</button>
+        <button class="btn color5" onclick="changeColorToPink()">Pink Flames</button>
+        <button class="btn color6" onclick="changeColorToCandy()">Candy Flames</button>
+        <button class="btn color7" onclick="changeColorToGrayscale()">Grayscale Flames</button>
+        <button class="btn color8" onclick="changeColorToRainbow()">Rainbow Flames</button>
+    </div>
+    <button class="btn" onclick="toggleDebugMode()">Debug mode</button>
     <script src="script.js"></script>
 </body>
 </html>
