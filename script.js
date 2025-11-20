@@ -80,7 +80,7 @@ function renderFire() {
             const colorString = `${color.r},${color.g},${color.b}`
 
             if (debug === true) {
-                html += '<td>'
+                html += '<td class="debugTdStyle">'
                 html += `<div class="pixel-index">${pixelIndex}</div>`
                 html += `<div style="color: rgb(${colorString})">${fireIntensity}</div>`
                 html += '</td>'
@@ -150,8 +150,8 @@ function decreaseFireSource() {
 
 function toggleDebugMode() {
     if (debug === false) {
-        fireWidth = 25
-        fireHeight = 17
+        fireWidth = 12
+        fireHeight = 8
         debug = true
     } else {
         fireWidth = 60
