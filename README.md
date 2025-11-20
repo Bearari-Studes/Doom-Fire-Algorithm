@@ -1,53 +1,53 @@
-# 🔥 Doom Fire Algorithm
+# 🔥 Algoritmo de Fogo do Doom
 
-> *An interactive implementation of the classic fire propagation algorithm from DOOM with enhanced features and real-time controls*
+> *Uma implementação interativa do clássico algoritmo de propagação de fogo do DOOM com recursos aprimorados e controles em tempo real*
 
-**Live Demo: [https://caio-p-b.github.io/Doom-Fire-Algorithm/](https://caio-p-b.github.io/Doom-Fire-Algorithm/)**
+**Teste o projeto ao vivo: [https://caio-p-b.github.io/Doom-Fire-Algorithm/](https://caio-p-b.github.io/Doom-Fire-Algorithm/)**
 
 <p align="center">
-  <img src="https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img4.png" alt="Doom Fire Algorithm Demo" width="600">
+  <img src="https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img4.png" alt="Demonstração do Algoritmo de Fogo do Doom" width="600">
 </p>
 
-## Features
+## ✨ Características
 
-| Feature | Description |
-|---------|-------------|
-| 🎨 **8 Color Palettes** | Classic, Red, Blue, Green, Pink, Candy, Grayscale, Rainbow |
-| 🌪️ **Wind Direction Control** | Left, Center, Right - Real-time flame manipulation |
-| 🔥 **Dynamic Fire Intensity** | Adjust flame strength and height on the fly |
-| 🔍 **Interactive Debug Mode** | Visualize the fire matrix with numerical data |
-| ⚡ **Pure JavaScript** | No dependencies - vanilla implementation |
+| Funcionalidade | Descrição |
+|----------------|-----------|
+| 🎨 **8 Paletas de Cores** | Clássico, Vermelho, Azul, Verde, Rosa, Doces, Escala de Cinza, Arco-íris |
+| 🌪️ **Controle de Direção do Vento** | Esquerda, Centro, Direita - Manipulação em tempo real das chamas |
+| 🔥 **Intensidade Dinâmica do Fogo** | Ajuste a força e altura das chamas instantaneamente |
+| 🔍 **Modo Debug Interativo** | Visualize a matriz de fogo com dados numéricos |
+| ⚡ **JavaScript Puro** | Implementação vanilla sem dependências |
 
-## 🧠 How It Works
+## 🧠 Como Funciona
 
-### 1. Data Structure
-The foundation uses a **one-dimensional array** where each element represents a pixel's fire intensity (0-36). This array efficiently maps to a 2D grid for visual representation while maintaining optimal performance.
+### 1. Estrutura de Dados
+A base utiliza um **array unidimensional** onde cada elemento representa a intensidade do fogo de um pixel (0-36). Este array mapeia eficientemente para uma grade 2D para representação visual mantendo performance ideal.
 
-![Data Structure](https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img3.png)
+![Estrutura de Dados](https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img3.png)
 
-### 2. Fire Propagation Algorithm  
-The algorithm processes the fire from **bottom to top**, applying decay and wind direction effects. Each pixel's intensity is calculated based on the pixel below it with random decay and directional influence, creating realistic flame movement.
+### 2. Algoritmo de Propagação do Fogo  
+O algoritmo processa o fogo de **baixo para cima**, aplicando decaimento e efeitos de direção do vento. A intensidade de cada pixel é calculada baseada no pixel abaixo dele com decaimento aleatório e influência direcional, criando movimento realista das chamas.
 
-![Fire Propagation Algorithm](https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img2.png)
+![Algoritmo de Propagação do Fogo](https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img2.png)
 
-### 3. Rendering System
-The visualization uses **HTML tables** with dynamic color palettes. The system supports both normal viewing and debug mode, which displays numerical values and indices for educational purposes and development.
+### 3. Sistema de Renderização
+A visualização utiliza **tabelas HTML** com paletas de cores dinâmicas. O sistema suporta tanto visualização normal quanto modo debug, que exibe valores numéricos e índices para fins educacionais e de desenvolvimento.
 
-![Rendering System](https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img1.png)
+![Sistema de Renderização](https://github.com/Caio-P-B/Doom-Fire-Algorithm/blob/main/images/img1.png)
 
-## 🛠 Technologies
+## 🛠 Tecnologias
 
-- **HTML5** - Table-based rendering system
-- **CSS3** - Styling and responsive design  
-- **JavaScript** - Fire algorithm and interactive features
-- **No Dependencies** - Pure vanilla implementation
+- **HTML5** - Sistema de renderização baseado em tabelas
+- **CSS3** - Design e estilo responsivo  
+- **JavaScript** - Algoritmo de fogo e features interativas
+- **Sem Dependências** - Implementação vanilla pura
 
-## 🙏 Credits
+## 🙏 Créditos
 
-Inspired by the original **DOOM fire effect** and **Filipe Deschamps**' educational implementation.
+Inspirado no **efeito de fogo original do DOOM** e na implementação educacional de **Filipe Deschamps**.
 
-**License**: MIT © [Caio-P-B](https://github.com/Caio-P-B)
+**Licença**: MIT © [Caio-P-B](https://github.com/Caio-P-B)
 
 ---
 
-*Experience the classic fire algorithm with modern interactivity!* 🚀
+*Experimente o algoritmo clássico de fogo com interatividade moderna!* 🚀
